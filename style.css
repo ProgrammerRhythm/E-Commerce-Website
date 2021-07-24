@@ -6,10 +6,13 @@ nav{
 }
 .input {
     width: 410px;
-    padding: 0px 80px 0px 40px;
+    padding: 0px 40px 0px 80px;
 }
 .re{
     border-radius: 35px !important;
+}
+.nav-item a{
+    padding: 0px 10px !important;
 }
 .pda{
     padding: 0px 0px 0px 0px !important;
@@ -65,13 +68,22 @@ nav{
     width: 100px;
 }
 .cat1 , .watch{
-    background-image: linear-gradient(90deg ,rgba(248, 164, 7, 0.733)0%,orange 100%);
+    background-image: linear-gradient(120deg ,rgba(49, 9, 9, 0.247) 0%,orange 100%);
 }
 .cat2 , .bags{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.589) 0%,rgb(255, 45, 80) 100%);
+    background-image: linear-gradient(120deg, rgba(143, 1, 1, 0.39) 0%,rgb(255, 45, 80) 100%);
 }
 .cat3 , .shoes{
     background-image: linear-gradient(120deg,rgba(255, 134, 134, 0.13) 0%,rgb(0, 0, 150) 100%);
+}
+.cat1:hover{
+    background-image: linear-gradient(120deg ,orange 100%,rgba(49, 9, 9, 0.247) 0%);
+}
+.cat2:hover{
+    background-image: linear-gradient(120deg,rgb(255, 45, 80) 100%,rgba(143, 1, 1, 0.39) 0%);
+}
+.cat3:hover{
+    background-image: linear-gradient(120deg,rgba(0, 0, 150) 100%,rgb(255, 134, 134, 0.13) 0%);
 }
 @media only screen and (min-width:320px){
    .psa{
