@@ -1,0 +1,80 @@
+nav{
+    border-radius: 20px !important;
+}
+.container{
+    margin-bottom: 80px;
+}
+.input {
+    width: 410px;
+    padding: 0px 80px 0px 40px;
+}
+.re{
+    border-radius: 35px !important;
+}
+.pda{
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 10px;
+}
+.re{
+    border-radius: 35px !important;
+}
+.bg-orange{
+    background-color: #feeae9;
+    border-radius: 14px;
+}
+.btn-buy-now{
+    background-image: linear-gradient(to bottom,#ff589b 0%,#ff136f 100%);
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+}
+.btn-buy-now a{
+   text-decoration: none;
+   color: #fff;
+}
+.price{
+    padding-bottom: 20px;
+    color: #ff136f;
+}
+.psa{
+    padding: 40px 100px 20px 120px; 
+} 
+.dec{
+    color: gray;
+}
+.hey{
+    background-color: indianred;
+    height: 130px;
+    width: 250px;
+    margin: 30px 50px;
+    border-radius: 8px;
+    color: #fff;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cat h1{
+    color: #fff;
+}
+.cat img{
+    width: 100px;
+}
+.cat1 , .watch{
+    background-image: linear-gradient(90deg ,rgba(248, 164, 7, 0.733)0%,orange 100%);
+}
+.cat2 , .bags{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.589) 0%,rgb(255, 45, 80) 100%);
+}
+.cat3 , .shoes{
+    background-image: linear-gradient(120deg,rgba(255, 134, 134, 0.13) 0%,rgb(0, 0, 150) 100%);
+}
+@media only screen and (min-width:320px){
+   .psa{
+       padding: 50px;
+   }
+}

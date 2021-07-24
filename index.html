@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <!-- search -->
+              <form class="d-flex">
+              <div class="input">
+              <input class="form-control me-2 re" type="search" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+            <!-- Ankor tag -->
+             
+                <ul class="navbar-nav pda">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- Caroseal -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide bg-orange" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active psa">
+                  <div class="row justify-content-center align-items-center d-flex justify-content-around">
+                    <div class="col-7">
+                      <h1>Mi LED TV 4A PRO</h1>
+                      <p class="dec">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora  voluptatibus quae labore tempore quidem repudiandae</p>
+                      <h1 class="price">
+                        $1200
+                      </h1>
+                      <button class="btn-buy-now"><a href="">Buy Now</a> </button>
+                    </div>
+                    <div class="col-5"><img src="banner-images/tv.png" class="d-block w-100" alt="banner-images/headphone.png"></div>
+                  </div>
+              </div>
+              <div class="carousel-item psa">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-7">
+                    <h1>Logitech Headphone</h1>
+                      <p class="dec">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora  voluptatibus quae labore tempore quidem repudiandae</p>
+                      <h1 class="price">
+                        $400
+                      </h1>
+                      <button class="btn-buy-now"><a href="">Buy Now</a> </button>
+                  </div>
+                <div class="col-5"><img src="banner-images/headphone.png" class="d-block w-100" alt="banner-images/headphone.png"></div>
+                </div>
+              </div>
+              <div class="carousel-item psa">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-7"><h1>Mini XBox</h1>
+                    <p class="dec">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora  voluptatibus quae labore tempore quidem repudiandae</p>
+                    <h1 class="price">$600</h1>
+                    <button class="btn-buy-now"><a href="">Buy Now</a> </button></div>
+                  <div class="col-5"><img src="banner-images/xbox.png" class="d-block w-100" alt="banner-images/xbox.png"></div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- Categories -->
+    <div class="container cat">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="cat1 d-flex justify-content-around align-items-center">
+            <h1>Watch</h1>
+            <img src="categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="cat2 d-flex justify-content-around align-items-center">
+            <h1>Bag</h1>
+            <img src="categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="cat3 d-flex justify-content-around align-items-center">
+            <h1>Shoes</h1>
+            <img src="categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container cat">
+      <h1>Categories</h1>
+      <div class="row d-flex justify-content-center align-items-center">
+      <div class="watch col-4 d-flex justify-content-around align-items-center">
+        <div class="row d-flex justify-content-center align-items-center">
+         <div class="col-6 "><h1>Watch</h1></div>
+         <div class="col-6"><img style="height: 130px;" src="categories/watch.png" alt=""></div>
+        </div>
+      </div>
+      <div class="bags col-4 d-flex justify-content-around align-items-center">
+        <div class="row">
+          <div class="cat2">
+          <div class="col-5"><h1>Bags</h1></div>
+          <div class="col-7"><img style="height: 130px;" src="categories/bag.png" alt=""></div>
+        </div>
+         </div>
+      </div>
+      <div class="shoes col-4 d-flex justify-content-around align-items-center">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-5"><h1>Shoes</h1></div>
+          <div class="col-7"><img style="height: 130px;" src="categories/shoes.png" alt=""></div>
+         </div>
+      </div>
+    </div>
+    </div> -->
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
