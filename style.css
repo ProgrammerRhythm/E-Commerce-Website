@@ -44,6 +44,13 @@ nav{
     padding-bottom: 20px;
     color: #ff136f;
 }
+#email {
+    padding: 6px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 265px;
+    margin-bottom: 10px;
+}
 .psa{
     padding: 40px 100px 20px 120px; 
 } 
@@ -87,6 +94,18 @@ nav{
 }
 .cat3:hover{
     background-image: linear-gradient(120deg,rgba(0, 0, 150) 100%,rgb(255, 134, 134, 0.13) 0%);
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 8px;
+}
+.card-footer{
+    background-color: whitesmoke;
+}
+#sub{
+    height: 300px;
+    margin-bottom: 10px !important;
 }
 @media only screen and (max-width:280px){
     .psa{
