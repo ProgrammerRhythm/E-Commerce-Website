@@ -5,15 +5,18 @@ nav{
     margin-bottom: 80px;
 }
 .input {
-    width: 410px;
-    padding: 0px 40px 0px 80px;
+    width: 420px;
+    padding: 0px 60px;
 }
 .re{
     border-radius: 35px !important;
 }
-.nav-item a{
-    padding: 0px 10px !important;
+.dude {
+    padding: 5px 90px;
 }
+/* .nav-item a{
+    padding: 0px 10px !important;
+} */
 .pda{
     padding: 0px 0px 0px 0px !important;
     margin: 0px 10px;
@@ -85,18 +88,64 @@ nav{
 .cat3:hover{
     background-image: linear-gradient(120deg,rgba(0, 0, 150) 100%,rgb(255, 134, 134, 0.13) 0%);
 }
+@media only screen and (width:280px){
+    .psa{
+        padding: 0px;
+    }
+    .dude {
+     padding:  0px;
+    }
+ }
 @media only screen and (width:320px){
    .psa{
        padding: 0px;
    }
+   .dude {
+    padding:  0px;
+   }
+}
+@media only screen and (width:360px){
+    .psa{
+        padding: 0px;
+    }
+    .dude {
+     padding:  0px;
+ }
 }
 @media only screen and (width:375px){
     .psa{
         padding: 0px;
+    }
+    .dude {
+        padding:  5px;
+    }
+ }
+ @media only screen and (width:411px){
+    .psa{
+        padding: 0px;
+    }
+    .dude {
+        padding:  5px;
+    }
+ }
+ @media only screen and (width:414px){
+    .psa{
+        padding: 0px;
+    }
+    .dude {
+        padding:  5px;
     }
  }
  @media only screen and (width:425px){
     .psa{
         padding: 0px;
     }
+    .dude {
+        padding:  5px;
+    }
+ }
+ @media only screen and (width:1024px){
+   .dude{
+       padding: 5px 5px;
+   }
  }
