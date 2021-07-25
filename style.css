@@ -85,8 +85,18 @@ nav{
 .cat3:hover{
     background-image: linear-gradient(120deg,rgba(0, 0, 150) 100%,rgb(255, 134, 134, 0.13) 0%);
 }
-@media only screen and (min-width:320px){
+@media only screen and (width:320px){
    .psa{
-       padding: 50px;
+       padding: 0px;
    }
 }
+@media only screen and (width:375px){
+    .psa{
+        padding: 0px;
+    }
+ }
+ @media only screen and (width:425px){
+    .psa{
+        padding: 0px;
+    }
+ }
