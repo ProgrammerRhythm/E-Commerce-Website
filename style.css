@@ -103,6 +103,9 @@ nav{
 .card-footer{
     background-color: whitesmoke;
 }
+.btna{
+    margin-bottom: 20px;
+}
 #sub{
     height: 300px;
     margin-bottom: 10px !important;
